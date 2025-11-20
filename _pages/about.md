@@ -31,6 +31,6 @@ publications:
   enabled: true # includes a list of all publications, not selected
 ---
 
-I’m a PhD student at Loyola University Chicago, where I work on robot learning. I am affiliated with AISEC and the Software Systems Laboratory. My work is supervised by Mohammed Abuhamad and George Thiruvathukal.
+I’m a PhD student at Loyola University Chicago, where I work on robot learning. I am affiliated with AISEC and the Software Systems Laboratory. My work is supervised by [Mohammed Abuhamad](http://aisec.cs.luc.edu/) and [George Thiruvathukal](https://gkt.sh/).
 
 **Research Interests:** I am interested in self supervised methods for imitation learning, continual improvement, and learning from human behavior. While it is common to use these techniques to improve generalization in unseen environments, I intend to improve the capability of robots to become increasingly skilled in familiar environments.
