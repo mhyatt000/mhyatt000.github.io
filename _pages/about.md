@@ -14,7 +14,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom/middle of the page
 
 announcements:
@@ -26,6 +26,9 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+publications:
+  enabled: true # includes a list of all publications, not selected
 ---
 
 I’m a PhD student at Loyola University Chicago, where I work on robot learning. I am affiliated with AISEC and the Software Systems Laboratory. My work is supervised by Mohammed Abuhamad and George Thiruvathukal.

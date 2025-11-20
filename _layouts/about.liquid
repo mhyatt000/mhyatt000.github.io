@@ -71,6 +71,15 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% else %}
+      {% if page.publications and page.publications.enabled %}
+
+        <!-- {% include bib_search.liquid %} -->
+        <div class="publications">
+        {% bibliography %}
+        </div>
+
+      {% endif %}
     {% endif %}
 
     <!-- Social 
