@@ -9,6 +9,10 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+<div class="alert alert-warning" role="alert">
+  under construction...
+</div>
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
