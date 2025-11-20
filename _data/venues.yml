@@ -1,9 +1,111 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# =====================
+# SOFTWARE ENGINEERING
+# =====================
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICSE":
+  url: https://icse2025.org/
+  color: "#FF6F61"
+"MSR":
+  url: https://conf.researchr.org/home/msr-2025
+  color: "#6A4C93"
 
-"Vision":
-  color: "#009f36"
+
+# =====================
+# MACHINE LEARNING
+# =====================
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#CC0000"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#3C78D8"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#23A699"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#3477CD"
+
+"ACL":
+  url: https://www.aclweb.org/
+  color: "#005CAB"
+
+"EMNLP":
+  url: https://2025.emnlp.org/
+  color: "#B55A30"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#003E7E"
+
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#001D6E"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#244F75"
+
+# =====================
+# ROBOTICS
+# =====================
+
+"ICRA":
+  url: https://www.ieee-icra.org/
+  color: "#0072CE"
+
+"IROS":
+  url: https://www.iros.org/
+  color: "#0050A0"
+
+"RSS":
+  url: https://roboticsconference.org/
+  color: "#1A936F"
+
+"CoRL":
+  url: https://www.corl2025.org/
+  color: "#0B3954"
+
+"T-RO":
+  url: https://www.ieee-ras.org/publications/t-ro
+  color: "#FF6F00"
+
+"RA-L":
+  url: https://www.ieee-ras.org/publications/ra-l
+  color: "#D84315"
+
+# =====================
+# SUPERCOMPUTING / HPC
+# =====================
+
+"SC":
+  url: https://sc-conference.org/
+  color: "#005EB8"   # SC blue
+
+"ISC":
+  url: https://www.isc-hpc.com/
+  color: "#C8102E"   # ISC red
+
+"IPDPS":
+  url: https://www.ipdps.org/
+  color: "#006298"
+
+"HPDC":
+  url: https://www.hpdc.org/
+  color: "#1A4D8F"
+
+"PPoPP":
+  url: https://ppopp25.sigplan.org/
+  color: "#8C1515"
+
+"PACT":
+  url: https://pactconf.org/
+  color: "#2A6F97"
+
+"HiPC":
+  url: https://hipc.org/
+  color: "#006C67"
