@@ -397,16 +397,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-m-excited-to-share-that-i-ve-been-awarded-the-dod-ndseg-fellowship",
+          title: 'I’m excited to share that I’ve been awarded the DoD NDSEG Fellowship!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-ve-been-awarded-the-nsf-grfp",
+          title: 'I’ve been awarded the NSF GRFP!',
+          description: "",
+          section: "News",},{id: "news-i-will-be-attending-atpesc-39-25",
+          title: 'I will be attending ATPESC&amp;#39;25',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/20250701-atpesc25/";
+            },},{id: "news-i-ve-been-accepted-to-sc-25-in-st-louis-mo",
+          title: 'I’ve been accepted to SC’25 in St. Louis, MO',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -458,7 +461,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/matthewhyatt-cv.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -507,6 +510,6 @@ ninja.data = [{
         title: 'Zotero',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.zotero.org/", "_blank");
+          window.open("https://www.zotero.org/mhyatt000", "_blank");
         },
       },];
