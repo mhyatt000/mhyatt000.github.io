@@ -456,6 +456,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-wip",
+          title: 'WIP',
+          description: "its my current work... cant say much more than that ;)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/wip/";
             },},{
         id: 'social-cv',
         title: 'CV',
@@ -506,10 +511,17 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=SXv-oqYAAAAJ&hl", "_blank");
         },
       },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@mhyatt000", "_blank");
+        },
+      },{
         id: 'social-zotero',
         title: 'Zotero',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.zotero.org/mhyatt000", "_blank");
+          window.open("https://www.zotero.org/", "_blank");
         },
       },];
