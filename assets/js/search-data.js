@@ -460,7 +460,7 @@ ninja.data = [{
           title: 'WIP',
           description: "its my current work... cant say much more than that ;)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/wip/";
+              window.location.href = "/projects/bela/";
             },},{
         id: 'social-cv',
         title: 'CV',
