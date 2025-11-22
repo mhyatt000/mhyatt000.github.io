@@ -249,17 +249,6 @@ ninja.data = [{
             window.location.href = "/blog/2023/audios/";
           
         },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -461,6 +450,11 @@ ninja.data = [{
           description: "its my current work... cant say much more than that ;)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bela/";
+            },},{id: "projects-locomotion",
+          title: 'locomotion',
+          description: "its my current work... cant tell you more than that right now ;)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/go2/";
             },},{
         id: 'social-cv',
         title: 'CV',
