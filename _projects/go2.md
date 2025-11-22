@@ -35,8 +35,8 @@ related_publications: false
     </div>
 </div>
 
-<div class="caption">
-    [A]. PPO walking policy. it can walk in all directions. <br>
+<div class="caption" style="text-align: left;">
+    [A] PPO walking policy. it can walk in all directions. <br>
     [B] User controlling the robot with a joystick. <br>
     [C] Collision detection of joystick wraped PPO with a simple heuristic.
 </div>
