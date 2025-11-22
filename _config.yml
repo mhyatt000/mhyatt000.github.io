@@ -176,6 +176,7 @@ exclude:
   - _pages/profiles.md
   - _pages/bookshelf.md
   - _pages/about_*.md
+  - album
   # others
   - bin/
   - CONTRIBUTING.md
