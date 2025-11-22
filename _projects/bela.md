@@ -70,6 +70,9 @@ Please shoot an email if you have any beans that you need swept up or if you wou
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="april/apriltags_30mm.png" title="april grid" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="https://github.com/opencv/opencv/blob/4.x/doc/pattern.png" title="checkerboard" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     This is 30mm april grid.
