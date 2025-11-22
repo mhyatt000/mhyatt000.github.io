@@ -1,75 +1,79 @@
 ---
 layout: page
-title: WIP
-description: its my current work... cant say much more than that ;)
-img: album/IMG+_0542.HEIC
+title: BELA
+description: its my current work... cant tell you more than that right now ;)
+img: https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/bela-cover.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# BEhavior is a foreign LAnguage for robots
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Autonomous Policy Execution
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid  path="album/eval-sweep-fast2.mp4" controls=true autoplay=true loop=true muted=true title="example image" class="video-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="album/IMG_0545.HEIC" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="album/Screenshot 2025-10-31 at 3.25.28 AM.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="album/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
+<div class="row" >
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="album/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid loading="eager" path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/img_0528.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="album/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid loading="eager" path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/img_0542.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+</div>
+
+<div class="caption">
+    Left: something was wrong with this model. I forget. Even so, the grasping of the broom is very hard since it is balanced on a point. So the gripper must be very precise to succeed. <br>
+    Right: The model I trained can generalize to the task. With greater than 90% success rate. 
+</div>
+
+Please shoot an email if you have any beans that you need swept up or if you would like this system deployed in your home.
+
+### Hand Teleoperation and 2D Tracking
+
+<div class="row" >
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/hand-teleop.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid loading="eager" path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/hand-track-2d.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Hand teleoperation using RUKA hand. This was my first attempt so I had to do some tricks to get the tracking to translate well to the robot coordinate space. <br>
+    Right: 3D tracking of hand keypoints using HAMER (displayed in 2D). This is used as input to the teleoperation system.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+### RUKA
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="album/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="album/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row mt-3">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include video.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/hand-v0.0.0/ruka.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/hand-v0.0.0/ruka-part0.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/hand-v0.0.0/ruka-part1.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/hand-v0.0.0/ruka-part2.png" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
 </div>
-```
+<div class="caption">
+    RUKA hand calibration. TODO cite (you can google it for now)
+</div>
 
-{% endraw %}
+### APRIL
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="april/apriltags_30mm.png" title="april grid" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This is 30mm april grid.
+</div>
+
+{% cite sc25-shortcutmixup %}.
+
