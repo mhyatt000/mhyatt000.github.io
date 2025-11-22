@@ -77,3 +77,39 @@ Please shoot an email if you have any beans that you need swept up or if you wou
 
 {% cite sc25-shortcutmixup %}.
 
+
+### more calibration and tracking 
+using point clouds!
+
+aparently roboreg has a better method of extrinsic calibration than using april tags... 
+i am trying that since ive wasted lots of time trying to get the right samples for eye-in-hand (EIH) nad eye-on-base (EOB) calibration.
+
+<div class="row mt-3">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/20251031-da2-selfie.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/20251103-roboreg.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/point-cloud-xarm.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/20251103-sam2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+
+<div class="row mt-3">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/differentiable-render.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid path="https://github.com/mhyatt000/mhyatt000.github.io/releases/download/bela-v0.0.0/calibrated-pose.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+I can verify that the calibration is decent because the rendered virtual robot aligns well with the RGB image.
+
+It could still use some tuning, but is broadly correct in all positions.
