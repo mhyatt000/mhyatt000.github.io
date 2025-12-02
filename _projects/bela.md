@@ -10,6 +10,14 @@ related_publications: true
 
 # BEhavior is a foreign LAnguage for robots
 
+# Environment Map
+
+<iframe 
+  src="https://app.rerun.io/version/0.27.0/index.html?url=https://mhyatt000.github.io/assets/rrd/data.rrd"
+  style="width: 100%; height: 80vh; border: none;"
+  allowfullscreen
+></iframe>
+
 ### Autonomous Policy Execution
 
 <div class="row" >
