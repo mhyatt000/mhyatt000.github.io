@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-git-gh-v0-0-1",
+        
+          title: "git/gh v0.0.1",
+        
+        description: "some of my latest git learnings",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/git/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
