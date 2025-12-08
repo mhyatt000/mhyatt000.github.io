@@ -1,5 +1,9 @@
+[build-system]
+requires = ["uv_build>=0.9.15"]
+build-backend = "uv_build"
+
 [project]
-name = "new"
+name = "mhyatt000-github-io"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,3 +13,18 @@ dependencies = [
     "pyyaml>=6.0.3",
     "scholarly>=1.7.11",
 ]
+
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tool.pixi.pypi-dependencies]
+mhyatt000-github-io = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+colima = { cmd = "colima stop --force && colima delete -y && colima start --vm-type=qemu" }
+up =  { cmd = "docker compose -- docker-compose.yml up" }
+
+[tool.pixi.dependencies]
+colima = ">=0.9.1,<0.10"
