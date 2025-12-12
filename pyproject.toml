@@ -17,14 +17,19 @@ dependencies = [
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
-platforms = ["osx-64"]
+platforms = ["osx-64", "osx-arm64" ]
 
 [tool.pixi.pypi-dependencies]
 mhyatt000-github-io = { path = ".", editable = true }
 
 [tool.pixi.tasks]
-colima = { cmd = "colima stop --force && colima delete -y && colima start --vm-type=qemu" }
 up =  { cmd = "docker compose -- docker-compose.yml up" }
+enter =  { cmd = "docker compose exec -it jekyll bundle install && ./bin/entry_point.sh && /bin/bash" }
+
+[tool.pixi.target.osx-arm64.tasks]
+colima = { cmd = "colima stop --force && colima delete -f && colima start --vm-type=qemu" }
+[tool.pixi.target.osx-64.tasks]
+colima = { cmd = "colima stop --force && colima delete -y && colima start --vm-type=qemu" }
 
 [tool.pixi.dependencies]
 colima = ">=0.9.1,<0.10"
