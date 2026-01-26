@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-16'
+  last_updated: '2026-01-26'
 papers:
   SXv-oqYAAAAJ:2osOgNQ5qMEC:
-    citations: 115
+    citations: 118
     title: An empirical study of pre-trained model reuse in the hugging face deep learning model registry
     year: '2023'
   SXv-oqYAAAAJ:9yKSN-GCB0IC:
@@ -14,6 +14,6 @@ papers:
     title: Robust Attribution of Synthetically Generated Western Blot Images
     year: '2023'
   SXv-oqYAAAAJ:d1gkVwhDpl0C:
-    citations: 60
+    citations: 61
     title: An empirical study of artifacts and security risks in the pre-trained model supply chain
     year: '2022'
