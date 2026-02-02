@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-02-02'
 papers:
   SXv-oqYAAAAJ:2osOgNQ5qMEC:
-    citations: 118
+    citations: 119
     title: An empirical study of pre-trained model reuse in the hugging face deep learning model registry
     year: '2023'
   SXv-oqYAAAAJ:9yKSN-GCB0IC:
