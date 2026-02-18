@@ -1,19 +1,19 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-18'
 papers:
   SXv-oqYAAAAJ:2osOgNQ5qMEC:
-    citations: 119
+    citations: 125
     title: An empirical study of pre-trained model reuse in the hugging face deep learning model registry
     year: '2023'
   SXv-oqYAAAAJ:9yKSN-GCB0IC:
-    citations: 8
-    title: 'Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics'
+    citations: 7
+    title: 'Snapshot metrics are not enough: Analyzing software repositories with longitudinal metrics'
     year: '2022'
   SXv-oqYAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Robust Attribution of Synthetically Generated Western Blot Images
     year: '2023'
   SXv-oqYAAAAJ:d1gkVwhDpl0C:
-    citations: 61
+    citations: 62
     title: An empirical study of artifacts and security risks in the pre-trained model supply chain
     year: '2022'
