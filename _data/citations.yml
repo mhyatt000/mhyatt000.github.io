@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-20'
 papers:
   SXv-oqYAAAAJ:2osOgNQ5qMEC:
     citations: 143
     title: An empirical study of pre-trained model reuse in the hugging face deep learning model registry
     year: '2023'
   SXv-oqYAAAAJ:9yKSN-GCB0IC:
-    citations: 8
+    citations: 9
     title: 'Snapshot metrics are not enough: Analyzing software repositories with longitudinal metrics'
     year: '2022'
   SXv-oqYAAAAJ:UeHWp8X0CEIC:
